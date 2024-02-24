@@ -3,43 +3,48 @@
 
 <head>
   <!-- Main Css File -->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="assets/css/main.css">
   <!-- Link to font Awesome -->
-  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
   <!-- Normalize file -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
   <!-- Font google -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imgs/westside-site-logo.webp" type="image/x-icon">
   <title> Pizza </title>
 </head>
 
 <body>
+
   <!-- Start Menu -->
   <div class="menu" id="menu">
     <header class="header">
       <i class="fa fa-bars" id="open-menu" aria-hidden="true"></i>
       <a href="#" class="logo"><img src="imgs/westside-site-logo.webp" alt=""></a>
       <ul class="links">
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Deals</a></li>
-        <li><a href="#">Carees</a></li>
-        <li><a style="cursor: pointer;" id="show-about-menu"  style="position: relative;">About <i class="fa-solid fa-chevron-down"></i></a>
-         <ul class="about-menu">
-          <li><a href="#">Our Pledge</a></li>
-          <li><a href="#">Gift Cards</a></li>
-          <li><a href="#">Fundraising</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Whats Makes Website Pizza the best Pizza?</a></li>
-          <li><a href="#">Why is Website Pizza Delivery the best way to get pizza</a></li>
-         </ul>
+        <span class="fa-solid fa-chevron-left return-back"></span>
+        <li><a class="link" href="#">Menu</a></li>
+        <li><a class="link" href="#">Deals</a></li>
+        <li><a class="link" href="#">Carees</a></li>
+        <li><a style="cursor: pointer; position: relative;" id="show-about-menu">About <i
+              class="fa-solid fa-chevron-down"></i></a>
+          <ul class="about-menu">
+            <li><a href="#">Our Pledge</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Fundraising</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Whats Makes Website Pizza the best Pizza?</a></li>
+            <li><a href="#">Why is Website Pizza Delivery the best way to get pizza</a></li>
+          </ul>
         </li>
         <li><a href="#">Location</a></li>
-        <li><a style="cursor: pointer;" id="show-franchise-menu" style="position: relative;">Francihse <i class="fa-solid fa-chevron-down"></i></a>
-          <ul class="Francihse-menu">
+        <li><a style="cursor: pointer; position: relative;" id="show-franchise-menu">Francihse <i
+              class="fa-solid fa-chevron-down"></i></a>
+          <ul class="francihse-menu">
             <li><a href="#">Overview</a></li>
             <li><a href="#">th eFranchising Process</a></li>
             <li><a href="#">Franchise Location</a></li>
@@ -50,9 +55,9 @@
             <li><a href="#">Franchise FAQ</a></li>
             <li><a href="#">Franchise Blog</a></li>
             <li><a href="#">Reguset information</a></li>
-           </ul>
+          </ul>
         </li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="link">Contact</a></li>
       </ul>
       <a href="#" class="btn-order">ORDER NOW <i class="fa-solid fa-angles-right"></i></a>
     </header>
@@ -65,7 +70,8 @@
       <h1>Check Out Our Current Pizza Special! <i class="fa-solid fa-angles-down"></i></h1>
     </div>
   </div>
-  <!-- Start Menu -->
+  <!-- End Menu -->
+
   <!-- Start about -->
   <div class="about" id="about">
     <div class="image-about">
@@ -77,6 +83,7 @@
     </div>
   </div>
   <!-- End about -->
+
   <!-- Start description -->
   <div class="desc">
     <div class="container">
@@ -101,6 +108,7 @@
 
   </div>
   <!-- End description -->
+
   <!-- Start Slider -->
   <div class="slider">
     <div class="container">
@@ -143,6 +151,7 @@
     </div>
   </div>
   <!-- End Slider -->
+
   <!-- Fresh Section -->
   <div class="fresh-section">
     <div class="image-fresh">
@@ -158,21 +167,22 @@
   </div>
   <div class="piece">
     <div class="content-piece">
-      <h1  class="main-title">Get a Piece of the Pie</h1>
+      <h1 class="main-title">Get a Piece of the Pie</h1>
       <p>We’re looking for motivated entrepreneurs to help bring great pizza to new areas. Our franchisees are like
         family, and we’ll help support you every step of the way. Every franchisee, as a business owner and community
         member, has something unique to offer our Westside Pizza family.</p>
-        <a href="#" class="main-btn">learn more</a>
+      <a href="#" class="main-btn">learn more</a>
     </div>
     <div class="image-piece">
       <img src="imgs/piece.jpg" alt="">
     </div>
   </div>
   <!-- End Fresh Section -->
+
   <!-- Start Location -->
   <div class="location" id="location">
     <div class="location-image">
-       <img src="imgs/westside-location-no-bg.webp" alt="">
+      <img src="imgs/westside-location-no-bg.webp" alt="">
     </div>
     <div class="location-content">
       <h1 class="main-title">Franchise with Westside Pizza!</h1>
@@ -185,6 +195,8 @@
     </div>
   </div>
   <!-- End Location -->
+
+  <!-- Start footer -->
   <div class="footer">
     <div class="container">
 
@@ -202,19 +214,21 @@
       </div>
     </div>
     <div class="footer-bottom">
-     <div class="links-footer">
-      <a href="#">Nutritional Value  </a> |
-      <a href="#"> Privacy Policy</a>
-     </div>
-     <div class="location-footer">
-      <h3>2022 - Westside Pizza International, Inc</h3>
-     </div>
-     <div class="designed-by">
+      <div class="links-footer">
+        <a href="#">Nutritional Value </a> |
+        <a href="#"> Privacy Policy</a>
+      </div>
+      <div class="location-footer">
+        <h3>2022 - Westside Pizza International, Inc</h3>
+      </div>
+      <div class="designed-by">
         <a href="#">Web Design</a> | <a href="#">Web Market</a> - A Digital Marketing Agency
-     </div>
+      </div>
     </div>
   </div>
-  <script src="js/main.js" defer></script>
+  <!-- End footer -->
+
+  <script src="dist/main.js" defer></script>
 </body>
 
 </html>
